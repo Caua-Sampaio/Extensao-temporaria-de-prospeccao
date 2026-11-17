@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Extrator Google Maps",
+  "version": "0.1.0",
+  "description": "Extrai nome, informações e link dos resultados do Google Maps em CSV.",
+  "browser_specific_settings": {
+    "gecko": { "id": "extrator-gmaps@local" }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/maps/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
