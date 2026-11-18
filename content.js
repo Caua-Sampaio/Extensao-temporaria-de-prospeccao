@@ -144,7 +144,7 @@
     });
   }
 
-  const META = 20;
+  const META = 50;
 
   // Detecta que o Google chegou ao fim da lista
   function fimDaLista() {
